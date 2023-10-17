@@ -21,21 +21,37 @@
             border-radius: 10px;
             color:black;
         }
+        button{
+            font-size: 20px;
+            padding: 5px 16px;
+            background-color: blue;
+            color: white;
+            border-color: rgba(255, 222, 173, 0);
+            border-radius: 10px;
+        }
+        input{
+            font-size: 20px;
+            padding: 5px 16px;
+            border-radius: 10px;
+        }
         
     </style>
 </head>
 <body>
     <script src="index.js"></script>
     <center>
+        <h4>What is BMI?: Body Mass Index, is a measure used to assess whether an individual has a healthy body weight in relation to their height. It is a simple calculation that is commonly used to categorize individuals into different weight classes.</h4>
         <h3>Calculate your BMI at your finger-tips!</h3>
         <label>Enter Your Weight in Kgs</label><br>
         <input type="number" id="weight"> <br>
         <label>Enter Your Height in Cm's</label><br>
 
-        <input type="number" id="height"> <br>
+        <input type="number" id="height"> <br><br>
         <button onclick=cal()>Calculate</button>
         <h4 id="result"></h4>
     <div class="suggest">
+        <h2 id="lab"></h2>
+        <p id="sug"></p>
 
     </div>
     </center>
