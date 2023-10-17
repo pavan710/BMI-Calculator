@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>BMI-Calculator</title>
+    <style>
+        
+        body{
+            background-color:midnightblue;
+            color:white;
+            font-family: 'Poppins', sans-serif;
+        }
+        .suggest{
+            background-color: white;
+            height: auto;
+            border-radius: 10px;
+            color:black;
+        }
+        
+    </style>
+</head>
+<body>
+    <script src="index.js"></script>
+    <center>
+        <h3>Calculate your BMI at your finger-tips!</h3>
+        <label>Enter Your Weight in Kgs</label><br>
+        <input type="number" id="weight"> <br>
+        <label>Enter Your Height in Cm's</label><br>
+
+        <input type="number" id="height"> <br>
+        <button onclick=cal()>Calculate</button>
+        <h4 id="result"></h4>
+    <div class="suggest">
+
+    </div>
+    </center>
+    
+</body>
+</html>
